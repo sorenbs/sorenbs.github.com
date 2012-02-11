@@ -1,4 +1,9 @@
-﻿h2. Resources for javascript games
+﻿---
+layout: post
+title: Resources for javascript games
+---
+
+h2. {{ page.title }}
 
 *Engines*
 

@@ -1,4 +1,9 @@
-﻿h2. Pong
+﻿---
+layout: post
+title: Pong
+---
+
+h2. {{ page.title }}
 
 This is a simple game of Pong implemented with Crafty
 

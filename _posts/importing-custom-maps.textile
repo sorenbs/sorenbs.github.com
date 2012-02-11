@@ -1,4 +1,9 @@
-﻿h2. Importing custom maps
+﻿---
+layout: post
+title: Importing custom maps
+---
+
+h2. {{ page.title }}
 
 In the latest snapshot of crafty the ability to load scene data was added.
 

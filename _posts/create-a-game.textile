@@ -1,4 +1,9 @@
-﻿h2. Creating your first Crafty game
+﻿---
+layout: post
+title: Creating your first Crafty game
+---
+
+h2. {{ page.title }}
 
 So - let's get going!
 

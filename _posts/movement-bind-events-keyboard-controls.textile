@@ -1,4 +1,9 @@
-﻿h2. Keyboard input and binding to events
+﻿---
+layout: post
+title: Keyboard input and binding to events
+---
+
+h2. {{ page.title }}
 
 Events is how components in Crafty talk to each other. In this article we will bind to events from Craftys Keyboard component to make it possible for a player to control the main character.
 

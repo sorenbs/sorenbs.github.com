@@ -1,4 +1,9 @@
-﻿h2. Tiles, spritemap and animations
+﻿---
+layout: post
+title: Tiles, spritemap and animations
+---
+
+h2. {{ page.title }}
 
 Take a look at our sprite sheet:
 
