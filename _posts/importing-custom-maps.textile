@@ -1,0 +1,37 @@
+﻿h2. Importing custom maps
+
+In the latest snapshot of crafty the ability to load scene data was added.
+
+The easiest way to use this is by writing the object to be imported directly in the source:
+
+<code>
+Crafty.import({
+'n': [
+     {x: 64, y: 64, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 80, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 96, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 112, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 128, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 144, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 160, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 176, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 192, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+     {x: 64, y: 208, z:2000, c:"2D, Grid, DOM, solid, bush1"},
+    ]});
+</code>
+
+Here we specify some basic properties for a list of entities that should be added to the scene. One thing to be aware of is that if you specify a list of components in the c property, these will be added to the entity when it is created.
+
+Taking this a step further, it should be possible to import scene data from an external file. The idea is that you will be able to use the Crafty Builder to generate these files by dragg-and-dropping entities onto a map. Until that is ready i think it should be possible to write a small script that converts data from an existing map editor into something Crafty can import.
+
+Importing an external file:
+
+<code>
+
+</code>
+
+The external file:
+
+<code>
+
+</code>
