@@ -1,3 +1,8 @@
-﻿h2. debugging javascript applications
+﻿---
+layout: post
+title: debugging javascript applications
+---
+
+h2. {{ page.title }}
 
 Work in progress :-)
